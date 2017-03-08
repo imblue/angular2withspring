@@ -1,0 +1,62 @@
+/* Login Styles */
+#mainLoginID {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#loginLogoID {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+#inputLoginID {
+    width: 350px;
+    display: block;
+    margin: 20px auto 0;
+    border: 2px solid #9a9a9a;
+    border-radius: 7px;
+    background: #dfdfdd;
+}
+
+#inputLoginID button {
+    float: right;
+    margin-right: 25px;
+    border-radius: 5px;
+    background-color: #1bcf1a;
+    border: 1px #1bcf1a;
+    font-size: 15px;
+    color: #dfdfdd;
+    height: 25px;
+    width: 80px;
+    font-weight: bold;
+}
+
+#inputLoginID .marginTop {
+    margin-top: 20px;
+}
+
+#inputLoginID label {
+    margin-left: 25px;
+}
+
+#inputLoginID input {
+    margin-left: 25px;
+}
+
+#inputLoginID input[type="text"],
+#inputLoginID input[type="password"] {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #9a9a9a;
+}
+
+#inputLoginID label[for="rememberMeCheckboxID"] {
+    margin: 0;
+}
+
+#inputLoginID div:nth-child(3) {
+    margin-top: 10px;
+}

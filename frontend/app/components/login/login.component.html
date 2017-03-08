@@ -1,0 +1,21 @@
+<div id="mainLoginID">
+    <img src="/app/images/TULogo.png" id="loginLogoID">
+
+    <div id="inputLoginID">
+        <form [ngFormModel]="credentials" (submit)="login()">
+            <div class="marginTop">
+                <label for="usernameInputID">Username</label>
+                <input id="usernameInputID" type="text" ngControl="username">
+            </div>
+            <div class="marginTop">
+                <label for="passwordInputID">Password</label>
+                <input id="passwordInputID" type="password" ngControl="password">
+            </div>
+            <div>
+                <input id="rememberMeCheckboxID" type="checkbox" ngControl="rememberMe">
+                <label for="rememberMeCheckboxID">Remember me</label>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</div>
